@@ -548,190 +548,8 @@ nav .log_in {
   display: block;
 }
 
-@media only screen and (min-width: 1025px) {
-  .burger_menu {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 1440px) {
-  .logo {
-    margin-right: 80px;
-  }
-
-  .log_in {
-    margin-left: 30px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .nav__list p {
-    display: none;
-  }
-
-  .log_in p {
-    display: none;
-  }
-
-  .hero1 {
-    height: 1020px;
-  }
-
-  .hero1 .img1 {
-    width: auto;
-    height: 580px;
-  }
-
-  .title1 {
-    font-size: 50px;
-  }
-
-  .logo {
-    margin-right: 0px;
-  }
-}
-
-@media only screen and (max-width: 830px) {
-  .title1 {
-    font-size: 40px;
-    width: 550px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .hero1 .img1 {
-    height: 450px;
-  }
-
-  .hero1 {
-    height: 800px;
-    margin-top: 40px;
-  }
-
-  .img_hero2 img {
-    width: 480px;
-    height: 350px;
-  }
-
-  .bg {
-    width: 100%;
-    height: 540px;
-  }
-
-  .adaptive {
-    width: 100%;
-    height: 640px;
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-    justify-content: center;
-  }
-
-  /* .bloc1 {
-    margin: 0 auto;
-    width: 160px;
-    height: 139px;
-  } */
-
-  .bloc1 img {
-    margin-bottom: 8px;
-  }
-
-  .hero3 .bloc1 {
-    margin: 0 auto;
-    width: 303px;
-    height: 353px;
-    margin-bottom: 33px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-  }
-  .hero3 {
-    flex-wrap: nowrap;
-  }
-
-  .header h1 {
-    font-size: 24px;
-  }
-
-  .hero4 {
-    flex-direction: column-reverse;
-    margin-top: 750px;
-  }
-
-  .img_hero4 img {
-    width: 300px;
-    height: 100px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .title1 {
-    font-size: 30px;
-    width: 350px;
-    line-height: 40px;
-    height: 90px;
-  }
-
-  .hero1 {
-    height: 700px;
-  }
-
-  .hero1 .img1 {
-    height: 300px;
-  }
-
-  .title2 {
-    width: 350px;
-    height: auto;
-  }
-
-  .btn {
-    width: 130px;
-    height: 30px;
-  }
-
-  .email {
-    width: 350px;
-    height: 40px;
-  }
-
-  .email input {
-    font-size: 12px;
-  }
-
-  .hero1_input {
-    width: 200px;
-    height: 40px;
-  }
-
-  .input_btn {
-    width: 120px;
-    height: 40px;
-  }
-
-  .hero1 .img1 {
-    height: 350px;
-  }
-
-  .imgs {
-    display: flex;
-    flex-direction: column;
-    width: 392px;
-    height: 58px;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
-
-  .img_hero2 img {
-    width: 350px;
-    height: 260px;
-  }
+.blok {
+  display: flex;
 }
 
 @media only screen and (max-width: 1260px) {
@@ -785,6 +603,283 @@ nav .log_in {
 
   .hero4_title h1 {
     font-size: 20px;
+  }
+
+  .figura {
+    width: 900px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .logo {
+    margin-right: 80px;
+  }
+
+  .log_in {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .burger_menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav__list p {
+    display: none;
+  }
+
+  .log_in p {
+    display: none;
+  }
+
+  .hero1 {
+    height: 1020px;
+  }
+
+  .hero1 .img1 {
+    width: auto;
+    height: 580px;
+  }
+
+  .title1 {
+    font-size: 50px;
+  }
+
+  .logo {
+    margin-right: 0px;
+  }
+
+  .figura {
+    width: 750px;
+  }
+
+  .figura p {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .app {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .title1 {
+    font-size: 40px;
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero1 .img1 {
+    height: 450px;
+  }
+
+  .hero1 {
+    height: 800px;
+    margin-top: 40px;
+  }
+
+  .img_hero2 img {
+    width: 480px;
+    height: 350px;
+  }
+
+  .bg {
+    width: 100%;
+    height: 540px;
+  }
+
+  .adaptive {
+    width: 100%;
+    height: 640px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .bloc1 img {
+    margin-bottom: 8px;
+  }
+
+  .hero3 .bloc1 {
+    margin: 0 auto;
+    width: 303px;
+    height: 353px;
+    margin-bottom: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .hero3 {
+    flex-wrap: nowrap;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .hero4 {
+    flex-direction: column-reverse;
+    margin-top: 750px;
+  }
+
+  .img_hero4 img {
+    width: 300px;
+    height: 100px;
+  }
+
+  .figura {
+    width: 460px;
+    height: 260px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+
+  .avatars {
+    margin-top: 80px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-between;
+  }
+
+  .person {
+    width: 235px;
+    height: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-between;
+  }
+
+  .title_hero5 {
+    width: 400px;
+  }
+
+  .title_hero5 h1 {
+    font-size: 30px;
+  }
+
+  .footer {
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .line {
+    margin-top: 550px;
+  }
+
+  .contacts {
+    margin-top: 570px;
+  }
+
+  .icon_container {
+    justify-content: space-evenly;
+  }
+
+  .icon_container img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .contacts p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title1 {
+    font-size: 30px;
+    width: 350px;
+    line-height: 40px;
+    height: 90px;
+  }
+
+  .hero1 {
+    height: 700px;
+  }
+
+  .hero1 .img1 {
+    height: 300px;
+  }
+
+  .title2 {
+    width: 350px;
+    height: auto;
+  }
+
+  .btn {
+    width: 130px;
+    height: 30px;
+  }
+
+  .email {
+    width: 350px;
+    height: 40px;
+  }
+
+  .email input {
+    font-size: 12px;
+  }
+
+  .hero1_input {
+    width: 200px;
+    height: 40px;
+  }
+
+  .input_btn {
+    width: 120px;
+    height: 40px;
+  }
+
+  .hero1 .img1 {
+    height: 315px;
+  }
+
+  .imgs {
+    display: flex;
+    flex-direction: column;
+    width: 392px;
+    height: 58px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .img_hero2 img {
+    width: 350px;
+    height: 260px;
+  }
+
+  .figura {
+    width: 360px;
+  }
+
+  .figura p {
+    font-size: 20px;
+    line-height: 24px;
+    width: 300px;
   }
 }
 
